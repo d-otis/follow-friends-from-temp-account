@@ -1,0 +1,13 @@
+{
+  "name": "follow-friends-from-temp-account",
+  "version": "1.0.0",
+  "description": "follow my follows from temp account",
+  "main": "index.js",
+  "author": " ",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "instagram-web-api": "^2.2.2"
+  }
+}
