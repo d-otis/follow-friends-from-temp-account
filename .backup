@@ -1,0 +1,5 @@
+let value = this.request("/", { resolveWithFullResponse: true }).then(res => {
+  const pattern = new RegExp(/(csrf_token\\":\\")[\w]+/);
+  const matches = res.body.match(pattern);
+  value = matches[0].substring(15);
+});
