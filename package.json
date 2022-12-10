@@ -7,9 +7,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "instagram-web-api": "^2.2.2",
-    "prompt-sync": "^4.2.0",
-    "tough-cookie-filestore2": "^1.0.0"
+    "dotenv": "^16.0.3"
   }
 }
